@@ -1,0 +1,16 @@
+post:
+    description: Register a new user
+    responses:
+        '200':
+            description: OK
+    parameters:
+        - name: body
+          in: body
+          required: true
+          schema:
+            type: object
+            properties:
+                username:
+                    type: string
+                password:
+                    type: string

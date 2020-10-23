@@ -1,0 +1,25 @@
+post:
+    description: Log in
+    responses:
+        '200':
+            description: OK
+            schema:
+                type: object
+                properties:
+                    username:
+                        type: string
+                    authToken:
+                        type: string
+        '401':
+            description: Not authorised
+    parameters:
+        - name: body
+          in: body
+          required: true
+          schema:
+            type: object
+            properties:
+                username:
+                    type: string
+                password:
+                    type: string

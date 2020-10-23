@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  dgep_test:
+    build: .
+    container_name: dgep3
+    ports:
+      - "8888:80"
+    volumes:
+    - ./src:/app
+
+  mongo_test:
+    image: mongo
+    container_name: dgep_mongo_test
+    volumes:
+    - ./mongo/data/db:/data/db
+    ports:
+    - "27018:27017"
