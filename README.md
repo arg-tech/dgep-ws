@@ -25,3 +25,5 @@ Some of the methods require authentication. To authenticate:
 5. Paste the auth token into the box; click "Authorize"
 
 Full documentation for DGEP will be available on the DGEP library github page: https://github.com/arg-tech/dgep
+
+Note that the web services uses a specific stable commit of dgep. You can use a more up-to-date version by editing requirements.txt with the appropriate commit hash.

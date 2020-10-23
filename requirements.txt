@@ -1,2 +1,2 @@
-git+https://github.com/arg-tech/dgep.git@experimental#egg=dgep&subdirectory=src
+git+https://github.com/arg-tech/dgep.git@6c1385a7100ff4ce989d159fac4b6359b62bad03#egg=dgep&subdirectory=src
 pymongo==3.9.0
