@@ -23,3 +23,5 @@ Some of the methods require authentication. To authenticate:
 3. Copy the returned auth token
 4. Click "Authorize"
 5. Paste the auth token into the box; click "Authorize"
+
+Full documentation for DGEP will be available on the DGEP library github page: https://github.com/arg-tech/dgep
