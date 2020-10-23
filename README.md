@@ -1,4 +1,4 @@
-# DGEP Web Service
+# DGEP Web Service
 
 The DGEP Web Service provides a RESTful deployment of the Dialogue Game Execution Platform (https://github.com/arg-tech/dgep).
 
